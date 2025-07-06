@@ -6,11 +6,11 @@ import string
 x = ["awd","wfaf","Gegg"]
 
 def default_page(response:HttpRequest):
-    content = "hello world"
+    content = "Hello World, This is my new HOME for Car Rentals Website  ! we're excited to welcome you here."
     return HttpResponse(content)
 
 def about_page(response:HttpRequest):
-    content = "hello world about page"
+    content = "A simple paragraph about Car Rentals."
     return HttpResponse(content)
 
 def random_pass(response:HttpRequest):
